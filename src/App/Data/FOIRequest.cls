@@ -1,15 +1,7 @@
 /// 
-/// Show
+/// FOI Request application data fields
 Class App.Data.FOIRequest Extends (%Persistent, %Populate)
 {
-
-Parameter FORMNAME = "FOIRequest";
-
-Parameter OBJPERMISSIONS As %String = "CRUD";
-
-Parameter DISPLAYPROPERTY As %String = "LastName";
-
-Parameter FORMORDERBY As %String = "LastName";
 
 /// title / salutation
 Property Title As %String;
